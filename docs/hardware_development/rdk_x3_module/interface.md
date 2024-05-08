@@ -22,7 +22,7 @@ The interface layout of the RDK X3 Module carrier board is as follows:
 
 The RDK X3 Module carrier board provides a 200-pin board-to-board connector for the installation of the core module. When installing, it is necessary to confirm the correct direction and alignment to avoid damage to the connectors of the core module and the carrier board.
 
-![image-x3-md-setup](./image/rdk_x3_module/image-x3-md-setup.png) 
+![image-x3-md-setup](./image/rdk_x3_module/image-x3-md-setup.jpg) 
 
 The module installation method is as follows:
 

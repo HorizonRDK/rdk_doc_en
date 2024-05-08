@@ -33,8 +33,6 @@ This document will provide detailed instructions on how to use the Horizon RDK S
 
 **RDK X3 Module (Sunrise X3 Module)** is a compact core module that maintains the same specifications as RDK X3 and is compatible with the Raspberry Pi CM4 module in terms of size and interface. By combining with the expansion board, it can provide efficient computing and communication capabilities for various application scenarios.
 
-**RDK Ultra** is a high-performance development kit with 96Tops edge inference power and 8-core ARM A55 processing power. It supports 4-channel MIPI Camera input, 4 USB3.0 interfaces, and 3 PCIe3.0 interfaces, fully meeting the needs of various scenarios.
-
 ![image-20230522171439846](../static/img/image-rdk-serials.jpg)
 
 

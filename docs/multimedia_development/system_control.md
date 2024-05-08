@@ -293,7 +293,7 @@ int HB_VP_Init(void);
 |    Non-zero  |   Failure   |
 
 【Note】
-> It is necessary to call HB_VP_SetConfig to configure the cache pool properties before initializing the cache pool, otherwise it will fail.【参考代码】
+> It is necessary to call HB_VP_SetConfig to configure the cache pool properties before initializing the cache pool, otherwise it will fail.【Reference code】
 > Reference code for VideoPool
 
 ### HB_VP_Exit
@@ -317,7 +317,7 @@ int HB_VP_Exit(void);
 【Notes】
 > None
 
-【参考代码】
+【Reference code】
 > Reference code for VideoPool
 
 ### HB_VP_CreatePool
@@ -341,7 +341,7 @@ uint32_t HB_VP_CreatePool(VP_POOL_CONFIG_S *VpPoolCfg);
 | Non-VP_INVALID_POOLID | Valid pool ID number |
 |  VP_INVALID_POOLID  |  Failed to create pool  |
 
-【Notes】【参考代码】
+【Notes】【Reference code】
 > Reference code for VideoPool
 
 ### HB_VP_DestroyPool
@@ -368,7 +368,7 @@ int HB_VP_DestroyPool(uint32_t Pool);
 【Note】
 > N/A
 
-【参考代码】
+【Reference code】
 > Reference code for VideoPool
 
 ### HB_VP_GetBlock
@@ -445,21 +445,21 @@ uint32_t HB_VP_PhysAddr2Block(uint64_t u64PhyAddr);
 |      0       |   Success   |
 |     Non-zero      |   Failure   |
 
-【注意事项】
+【Notes】
 > None
 
-【参考代码】
+【Reference code】
 > VideoPool reference code
 
 ### HB_VP_Block2PhysAddr
-【函数声明】
+【Function description】
 ```c
 uint64_t HB_VP_Block2PhysAddr(uint32_t Block);
 ```
-【功能描述】
+【Function description】
 > Get the physical address of a buffer block
 
-【参数描述】
+【Parameter description】
 
 | Parameter Name | Description | Input/Output |
 | :------------: | :---------: | :----------: |
@@ -472,21 +472,21 @@ uint64_t HB_VP_Block2PhysAddr(uint32_t Block);
 |      0       |   Invalid return value    |
 |   Non-zero    |    Valid physical address   |
 
-【注意事项】
+【Notes】
 > None
 
-【参考代码】
+【Reference code】
 > VideoPool reference code
 
 ### HB_VP_Block2PoolId
-【函数声明】
+【Function description】
 ```c
 uint32_t HB_VP_Block2PoolId(uint32_t Block);
 ```
-【功能描述】
+【Function description】
 > Get the buffer pool id through the buffer block id
 
-【参数描述】| Parameter Name | Description | Input/Output |
+【Parameter description】| Parameter Name | Description | Input/Output |
 | :------------: | :---------: | :----------: |
 |     Block      | Buffer block ID |    Input     |
 

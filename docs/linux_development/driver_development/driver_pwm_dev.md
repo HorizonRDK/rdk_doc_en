@@ -47,7 +47,7 @@ lpwm: lpwm@0xA500D000 {
     clock-names = "lpwm_mclk";
     status = "disabled";
 };
-```pwm_c0: pwm@0xA500D000 {
+    pwm_c0: pwm@0xA500D000 {
     compatible = "hobot,hobot-pwm";
     #pwm-cells = <3>;
     reg = <0 0xA500D000 0 0x1000>;
@@ -96,7 +96,7 @@ do
     echo 0 > export
     echo 1 > export
     echo 2 > export
-```cd pwm0
+    cd pwm0
         echo 10000 > period
         echo 3000  > duty_cycle
         echo 1 > enable

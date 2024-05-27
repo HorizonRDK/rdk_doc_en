@@ -97,7 +97,7 @@ static int hobot_xxx_probe(struct platform_device *pdev)
                 "xxx_voltage_func");
     if (IS_ERR(g_xxx_dev->pins_voltage)) {
         dev_info(&pdev->dev, "xxx_voltage_func get error %ld\n",
-```PTR_ERR(g_xxx_dev->pins_voltage));
+        PTR_ERR(g_xxx_dev->pins_voltage));
         g_xxx_dev->pins_voltage = NULL;
     }
     ...
